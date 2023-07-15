@@ -1,6 +1,6 @@
 # Create the demo org
-sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s --wait 60 --userprefix admin -o transaction.demo
-#sfdx force:org:create -f config/project-scratch-def.json -a transaction-security-demo
+sfdx shane:org:create -f config/project-scratch-def.json -d 30 -s --wait 60 --userprefix transaction -o security.demo
+#sfdx force:org:create -f config/project-scratch-def.json -a sfdc-security-demo
 
 # Updates the Transaction Security Policies to contain this scratch orgs username
 sfdx shane:tsp:username:update
@@ -13,6 +13,9 @@ sfdx force:user:permset:assign -n TransactionSecurity
 
 # Set the default password.
 sfdx shane:user:password:set -g User -l User -p salesforce1
+
+# Generate the files for Threat Detection
+sfdx force:apex:execute -f ~/scripts/apex/genRecords.apex
 
 # Open the org.
 sfdx force:org:open

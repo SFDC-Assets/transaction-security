@@ -1,0 +1,41 @@
+{
+  "serverMaxRevisionCounter": 30,
+  "sourceMembers": {
+    "CustomField__Contact.Vip__c": {
+      "serverRevisionCounter": 25,
+      "lastRetrievedFromServer": null,
+      "memberType": "CustomField",
+      "isNameObsolete": false
+    },
+    "Profile__Admin": {
+      "serverRevisionCounter": 30,
+      "lastRetrievedFromServer": null,
+      "memberType": "Profile",
+      "isNameObsolete": false
+    },
+    "Layout__Contact-Contact (Marketing) Layout": {
+      "serverRevisionCounter": 26,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Contact-Contact (Sales) Layout": {
+      "serverRevisionCounter": 27,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Contact-Contact (Support) Layout": {
+      "serverRevisionCounter": 28,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    },
+    "Layout__Contact-Contact Layout": {
+      "serverRevisionCounter": 29,
+      "lastRetrievedFromServer": null,
+      "memberType": "Layout",
+      "isNameObsolete": false
+    }
+  }
+}
