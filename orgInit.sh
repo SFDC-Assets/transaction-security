@@ -14,9 +14,6 @@ sfdx force:user:permset:assign -n TransactionSecurity
 # Set the default password.
 sfdx shane:user:password:set -g User -l User -p salesforce1
 
-# Generate the files for Threat Detection
-sfdx force:apex:execute -f ~/scripts/apex/genRecords.apex
-
 # Open the org.
 sfdx force:org:open
 
