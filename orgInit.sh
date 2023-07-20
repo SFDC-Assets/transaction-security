@@ -19,3 +19,5 @@ sfdx force:org:open
 
 # Import the data required by the demo
 sfdx automig:load --inputdir ./data
+
+sfdx force:apex:execute -f ./script/apex/createFile.apex
