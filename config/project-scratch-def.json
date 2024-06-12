@@ -7,7 +7,8 @@
       "pathAssistantEnabled": true
     },
     "eventSettings": {
-      "enableTransactionSecurityPolicies": true
+      "enableTransactionSecurityPolicies": true,
+      "eventLogRetentionDuration": 30
     }
   }
 }
