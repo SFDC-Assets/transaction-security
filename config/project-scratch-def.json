@@ -2,13 +2,14 @@
   "orgName": "Transaction Security Demo",
   "edition": "Developer",
   "features": ["SecurityEventEnabled"],
-  "release": "previous",
   "settings": {
     "pathAssistantSettings": {
       "pathAssistantEnabled": true
     },
     "eventSettings": {
-      "enableTransactionSecurityPolicies": true
+      "enableTransactionSecurityPolicies": true,
+      "eventLogRetentionDuration":30,
+      "enableEventLogGeneration":true
     }
   }
 }
