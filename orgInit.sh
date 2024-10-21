@@ -12,7 +12,8 @@ sfdx force:source:push
 sfdx force:user:permset:assign -n TransactionSecurity
 
 # Set the default password.
-sfdx shane:user:password:set -g User -l User -p salesforce1
+sf demoutil user password set -p salesforce1 -g User -l User
+
 
 # Open the org.
 sfdx force:org:open
