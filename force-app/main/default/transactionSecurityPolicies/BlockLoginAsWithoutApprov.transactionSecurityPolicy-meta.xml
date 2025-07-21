@@ -12,10 +12,10 @@
         <twoFactorAuthentication>false</twoFactorAuthentication>
     </action>
     <active>true</active>
-    <apexClass>FileEventTransactionHandler</apexClass>
-    <developerName>BlockDownloadingFilesfrom</developerName>
-    <eventName>FileEventStore</eventName>
-    <masterLabel>Block Downloading Files from Closed Cases</masterLabel>
+    <apexClass>BlockLoginAsWithoutApprovEventCondition</apexClass>
+    <blockMessage>LoginAs  event blocked. Please ensure an approved LoginAsRequest ticket is in place.</blockMessage>
+    <developerName>BlockLoginAsWithoutApprov</developerName>
+    <eventName>LoginAsEvent</eventName>
+    <masterLabel>Block Login As Without Approval</masterLabel>
     <type>CustomApexPolicy</type>
-    <executionUser>transaction46@security.demo</executionUser>
 </TransactionSecurityPolicy>
