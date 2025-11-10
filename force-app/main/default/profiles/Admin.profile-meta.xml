@@ -13,11 +13,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <custom>false</custom>
-    <loginIpRanges>
-        <description>the whole internet</description>
-        <endAddress>255.255.255.255</endAddress>
-        <startAddress>0.0.0.0</startAddress>
-    </loginIpRanges>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
